@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
+a,
+p,
+span,
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 26px;
+    padding-left: 26px;
+    color: #3C3C3C;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.banner-part {
+    background: #FFFBF0;
+    padding-top: 108px;
+    padding-bottom: 128px;
+}
+
+.btn-default {
+    padding: 18px 33px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s ease .2s;
+}
+
+.btn-default:hover {
+    background: linear-gradient(180deg, #FABE4C 0%, #e4a634 100%);
+    color: #fff;
+}
+
+
+.banner-content h1 {
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.banner-content p {
+    padding-right: 170px;
+    padding-bottom: 30px;
+}
+
+.banner-content .first-text {
+    color: #FABE4C;
+}
+
+.shape-img {
+    position: relative;
+}
+
+.custom-img {
+    position: absolute;
+    bottom: 0;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    color: #363958;
+}
+
+.woman-jacket-item {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.woman-jacket-item .woman-inner-img {
+    background: #F1F1F1;
+    border-radius: 20px;
+    min-height: 327px;
+}
+
+.woman-jacket-item .woman-inner-img img {
+    max-width: 290px;
+    max-height: 290px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.price-button .price {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FABE4C;
+}
+
+.info-items {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 20px 72px 20px 27px;
+}
+
+.info-items img {
+    max-width: 70px;
+    margin-right: 36px;
+}
+
+.info-items h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+
+@media (max-width: 575.98px) {
+    .banner-content h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .banner-image {
+        margin-top: 113px;
+    }
+}
